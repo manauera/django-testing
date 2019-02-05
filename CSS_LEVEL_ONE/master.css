@@ -1,0 +1,24 @@
+/* this is a section of comment */
+/*
+-> basic structure
+    selected tag{
+        property: value;
+    }
+
+*/
+
+h1 {
+    color: blue;
+}
+
+li {
+    color: rgb(200, 84, 1);
+}
+
+p {
+    color: #ff00f1;
+}
+
+h4 {
+    color: rgba(123, 0, 0, 1);
+}
