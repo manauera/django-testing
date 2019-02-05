@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Hotel Feedback</title>
+    </head>
+    <body>
+        <h1>Hotel Feedback Form</h1>
+        <form method="get">
+            <h4>Are you from inside US? Or Outside the US?</h4>
+            <label for="inusa">Inside:</label>
+            <input id="inusa" type="radio" name="loc" value="inside">
+            <label for="outusa">Outside:</label>
+            <input id="outusa" type="radio" name="loc" value="outside">
+
+            <h4>How was your service?</h4>
+            <select name="stars">
+                <option value="3">Great</option>
+                <option value="2">Okay</option>
+                <option value="1">Bad</option>
+            </select>
+
+            <h4>Any other feedback?</h4>
+            <textarea name="mytext" rows="8" cols="80"></textarea>
+
+            <br>
+            <input type="submit" name="" value="Submit">
+
+
+        </form>
+
+    </body>
+</html>
