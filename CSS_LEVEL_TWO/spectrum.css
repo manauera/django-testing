@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.boxcolor {
+    width: 150px;
+    height: 300px;
+    border: 6px solid white;
+}
+
+.colors {
+    align-self: center;
+    margin: auto;
+}
+
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#indigo {
+    background-color: indigo;
+}
+#purple {
+    background-color: purple;
+}
