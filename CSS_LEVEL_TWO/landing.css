@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    font-family: arial;
+    text-align: center;
+    border-bottom: 100px solid #003366;
+    border-left: 100px solid #003366;
+    border-right: 100px solid #003366;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+div {
+    background-color: black;
+    border-bottom: 100px solid #0066ff;
+    text-align: center;
+    color:white;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+input {
+    margin: 10px;
+    margin-top:0px;
+}
+#button {
+    background-color: #ff9f1c;
+    font-family: monospace;
+    height: 50px;
+    width:150px;
+    margin-top: 5%;
+    margin-bottom: 5%   ;
+    border-radius: 20px;
+}
