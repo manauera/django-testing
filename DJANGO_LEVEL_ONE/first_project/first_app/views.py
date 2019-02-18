@@ -3,4 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello world!")
+    dict = {
+        'insert_me': '<h1> Hello there! </h1>',
+    }
+    return render(request, 'first_app/index.html', context=dict)
