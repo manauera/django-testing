@@ -19,6 +19,6 @@ from social import views
 
 urlpatterns = [
     path('', views.index),
-    path('users/', views.users),
-    path('register/', views.register),
+    path('users/', views.users, name="user_listing"),
+    path('register/', views.register, name="user_register"),
 ]

@@ -2,6 +2,9 @@ from django import forms
 from social.models import User
 
 class UserRegisterForm(forms.ModelForm):
+    fname = forms.CharField(label='First Name:')
+    lname = forms.CharField(label='Last Name:')
+    email = forms.EmailField(label='Email:')
     class Meta:
         model = User
         fields = "__all__"

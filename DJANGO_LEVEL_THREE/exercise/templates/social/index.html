@@ -2,13 +2,19 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Exercise!</title>
+        <title>Social App</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
             <div class="jumbotron">
                 <h1>Hello there</h1>
+                <p>What do you want?</p>
+                <a href="{% url 'user_listing' %}" class="btn btn-primary">List Users
+                </a>
+                <a href="{% url 'user_register' %}" class="btn btn-primary"> Register User
+                </a>
+
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
