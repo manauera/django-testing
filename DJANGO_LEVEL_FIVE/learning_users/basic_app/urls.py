@@ -20,5 +20,5 @@ app_name = 'basic_app'
 
 urlpatterns = [
     path('login/', views.login, name="login"),
-    path('register/', views.register, name=""),
+    path('register/', views.register, name="register"),
 ]
