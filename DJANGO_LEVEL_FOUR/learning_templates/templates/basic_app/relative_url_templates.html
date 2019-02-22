@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        <h1>RELATIVE URL TEMPLATES</h1>
-        <a href="{% url 'index' %}">INDEX</a>
-        <a href="{% url 'basic_app:other' %}">OTHER PAGE</a>
 
+{% extends "basic_app/base.html" %}
+{% block body_block %}
 
-    </body>
-</html>
+<h1>RELATIVE URL TEMPLATES</h1>
+<a href="{% url 'index' %}">INDEX</a>
+<a href="{% url 'basic_app:other' %}">OTHER PAGE</a>
+
+{% endblock %}

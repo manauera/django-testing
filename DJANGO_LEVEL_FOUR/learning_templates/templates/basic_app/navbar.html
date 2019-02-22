@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block navbar_block %}
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="header">
+        <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'basic_app:other' %}">Other</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'basic_app:relative' %}">Relative</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{% endblock %}
