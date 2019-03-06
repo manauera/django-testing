@@ -21,4 +21,6 @@ urlpatterns = [
     path('', views.index, name="index"),
     path('basic_app/', include('basic_app.urls')),
     path('admin/', admin.site.urls, name="admin"),
+    path('logout/', views.user_logout, name="logout"),
+    path('other/', views.other, name="other"),
 ]
